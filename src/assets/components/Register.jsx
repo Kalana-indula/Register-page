@@ -22,9 +22,9 @@ const Register = () => {
 
             </div>
 
-            <div className="right-panel w-[60vw] h-screen bg-white flex flex-col justify-center items-center">
-                <div>
-                    
+            <div className="right-panel w-[60vw] h-screen bg-white flex flex-col justify-center items-center relative">
+                <div className="righ-image w-[100px] h-[100px] absolute right-0 top-0">
+                    <img src="/decoration.png" alt='image' className='w-[250px] h-[250px] object-cover' />
                 </div>
                 <form className="w-full max-w-xl space-y-6">
                     <div className="space-y-4">

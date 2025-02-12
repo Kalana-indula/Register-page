@@ -22,22 +22,41 @@ const Register = () => {
 
             </div>
 
-            <div className="right-panel w-[60vw] h-screen bg-white flex flex-col justify-center items-center p-8">
-                <form className="w-full max-w-md space-y-6">
+            <div className="right-panel w-[60vw] h-screen bg-white flex flex-col justify-center items-center">
+                <form className="w-full max-w-xl space-y-6">
                     <div className="space-y-4">
-                        <input type="text" placeholder="First Name" className="w-full p-3 border rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-[#8456e2]" />
-                        <input type="text" placeholder="Last Name" className="w-full p-3 border rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-[#8456e2]" />
-                        <input type="email" placeholder="Email Address" className="w-full p-3 border rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-[#8456e2]" />
-                        <input type="tel" placeholder="Phone Number" className="w-full p-3 border rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-[#8456e2]" />
-                        <input type="text" placeholder="Country" className="w-full p-3 border rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-[#8456e2]" />
-                        <input type="password" placeholder="Password" className="w-full p-3 border rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-[#8456e2]" />
-                        <input type="password" placeholder="Repeat Password" className="w-full p-3 border rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-[#8456e2]" />
+                        <div className="flex justify-center items-center
+                        mb-[40px]">
+                            <input type="text" placeholder="First Name" className="w-full p-3 border rounded-lg
+                            mr-[20px]"/>
+                            <input type="text" placeholder="Last Name" className="w-full p-3 border rounded-lg" />
+                        </div>
+
+                        <input type="email" placeholder="Email Address" className="w-full p-3 border rounded-lg
+                        mb-[40px]" />
+
+                        <div className="flex justify-center items-center
+                        mb-[40px]">
+                            <input type="tel" placeholder="Phone Number" className="w-full p-3 border rounded-lg
+                            mr-[20px]"/>
+                            <input type="text" placeholder="Country" className="w-full p-3 border rounded-lg" />
+                        </div>
+
+                        <div className="flex justify-center items-center
+                        mb-[40px]" >
+                        <input type="password" placeholder="Password" className="w-full p-3 border rounded-lg
+                        mr-[20px]" />
+                        <input type="password" placeholder="Repeat Password" className="w-full p-3 border rounded-lg" />
+                        </div>
+                        
                     </div>
 
-                    <button type="submit" className="w-full py-3 bg-[#8456e2] text-white text-lg rounded-lg shadow-lg focus:outline-none">
+                    <button type="submit" className="reg-button w-full py-3 bg-[#5447ca] text-white text-lg rounded-lg
+                     hover:bg-[#6847ca] transition duration-300 ease-in-out active:bg-[#8765ee]
+                     active:transition duration-75 ease-in-out">
                         REGISTER NOW!
                     </button>
-                    <div className="mt-4 text-center">
+                    <div className="mt-[10px] text-start">
                         <span className="text-sm text-gray-600">
                             Already have an account?
                             <a href="#" className="text-[#8456e2] font-semibold"> Log In Here</a>

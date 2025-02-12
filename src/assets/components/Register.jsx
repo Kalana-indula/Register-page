@@ -23,6 +23,9 @@ const Register = () => {
             </div>
 
             <div className="right-panel w-[60vw] h-screen bg-white flex flex-col justify-center items-center">
+                <div>
+                    
+                </div>
                 <form className="w-full max-w-xl space-y-6">
                     <div className="space-y-4">
                         <div className="flex justify-center items-center
